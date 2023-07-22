@@ -1,0 +1,295 @@
+body{
+   background-image: url(img3.jpg);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+li{
+    display: inline;
+    color:white;
+    padding: 10px 17px;
+    font-size: 25px;
+    
+}
+ul{
+     float: right;
+     padding: 16px;
+}
+nav{
+    /* background-image: linear-gradient(-225deg, #2CD8D5 0%, #6B8DD6 48%, #8E37D7 100%); */
+    background-color: #16687a;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+    }
+#logo{
+    height:50px;
+    width:40px; 
+    border: solid white 2px;
+    border-radius: 40px;
+}
+li:hover{
+    color: black;
+    background-color: aqua;
+}
+#kush:hover{
+    background-color: aqua;
+    color: black;
+    
+}
+#kush{
+    color:white;
+    display: inline;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    font-size: 37px;
+}
+header{
+    width: 100vw;
+    
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    /* border: solid black 1px; */
+    /* background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%); */
+    background-image: url(img3.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    align-items: center ;
+}
+.contaner1{
+   width: 60vw;
+    
+}
+.profil3{
+    align-items: center;
+    display: flex;
+
+}
+.profil3 img{
+    width: 33vw;
+    height: 58vh;
+    position: absolute;
+    border-radius: 50%;
+    border: solid #69cdf1 2px ;
+    box-shadow: 0 0 20px 20px  #69cdf1;
+
+}
+  
+   #name{
+        color: white;
+        font-size: 50PX;
+        margin-left: 30px;
+        font-weight: 900;
+        
+    }
+    #spam1{
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 40px;
+    }
+    #hello{
+        font-size:100px ;
+        color: white;
+        margin-top: 90px;
+        margin-left: 30px;
+        font-weight: 900;
+    }
+    #para{
+        font-size:60px ;
+        color: white;
+        margin-left: 30px;
+        margin-top: 5px;
+
+    }
+.but{
+    background: rgb(5,57,25);
+background: radial-gradient(circle, rgba(5,57,25,1) 0%, rgba(38,149,119,1) 0%, rgba(236,174,201,1) 1%, rgba(28,221,210,1) 2%);
+width: 220px;
+height: 56px;
+border-radius: 5px;
+margin: 30px;
+}
+.but:hover{
+    border: solid aqua 20px;
+}
+.About {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 25px;
+    text-decoration:underline;
+    color: white;
+}
+.aboutbox p{
+    font-size: 30px;
+    padding-left: 30px;
+    padding:20px 50px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    
+    }
+.aboutbox{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 70px;
+    background-color: white;
+   height: 60vh;
+    
+}
+
+.extani{
+    color:white;
+    font-family: tahoma;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+  }
+  .extani span {
+    font-size: 25px;
+    margin-left: 0px;
+    padding-left: 20px;
+    overflow: auto;
+  }
+
+  .message {
+    background-color: white;
+    color: #333;
+    font-size: 40px;
+    width: 620px;
+    z-index: 1;
+    display: block;
+    font-weight: 900;
+    position: absolute;
+    padding-left: 1.5rem;
+    top: 0.2rem;
+    left: 720px;
+    animation-delay: 1s;
+    animation: openclose 7s ease-in-out infinite;
+  }
+  .word1, .word2, .word3 {
+    font-family: tahoma;
+    }
+    @keyframes openclose {
+
+        98% {
+          top: -15rem;
+          width: 0;
+          text-indent: 10px;
+        }
+        100% {
+          top: 0;
+          width: 0;
+          text-indent: 0;
+        }
+    }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer1{
+    margin: 30px 0px;
+    width: 100vw;
+    height: 300px;
+    background-image: url(wp7117588.png);
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+    padding-top: 0px;
+}
+form{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px 300px 100px 250px ;
+    color:white;
+    width: 600px;
+    padding: 0px;
+    
+}
+form input{
+    height: 30px;
+}
+.card{
+    width: 100vw;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    text-align: center;
+    background-image: url(img3.jpg);
+    overflow: hidden;
+}
+.box1{
+    /* height: 150px; */
+    width: 110px;
+    background-color:white;
+    align-self: center;
+    border-radius: 10px;
+    transition: margin;
+    overflow: hidden;
+    }
+    .box1:hover{
+        border: white solid 5px;
+    }
+
+
+
+
+
+#insta{
+    width: 95%;
+    height: 40%;
+    border-radius: 10px 10px 0px 0px ;
+    font-size: medium;
+}
+.intaimg{
+    background-color: #8895b3;
+    
+}
+#instaimg1{
+    width: 10%;
+    height:5%;
+    
+    border: solid white 2px;
+    border-radius: 40px;
+}
+#kush1{
+    display: inline;
+    font-size: small;
+    margin: 3px;
+}
+    
+    .bottom{
+        background-color:black;
+        text-align: center;
+        color: white;
+    }
+    footer p{
+        padding: 25px;
+    }
