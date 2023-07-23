@@ -131,6 +131,7 @@
   }
     form {
       margin: 30px;
+      height: 60%;
 
     }
     #paraname{
@@ -147,8 +148,12 @@
     }
   
     .box1 {
-      width: 90%;
+      width: 50%;
       margin: 10px;
+      height: 50%;
+    }
+    .footer1{
+        height: 500px;
     }
     .message {
         
