@@ -1,7 +1,7 @@
 /* mediaquery.css */
 
 /* Mobile styles */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
     body {
       background-size: cover;
     }
