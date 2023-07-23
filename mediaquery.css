@@ -7,13 +7,25 @@
     }
   
     nav {
-      position: relative;
+      /* position: relative; */
       background-color: #16687a;
+    
+        background-color: #16687a;
+        width: 100vw;
+        position: fixed;
+        z-index: 2;
       
     }
+    
+    
+    
+    
+    
+    
   
     #kush {
-      top: 0;
+      /* top: 0; */
+      position: absolute;
       font-size: 30px;
       margin: 10px;
       text-align: center;
