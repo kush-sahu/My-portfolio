@@ -1,0 +1,173 @@
+/* mediaquery.css */
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    body {
+      background-size: cover;
+    }
+  
+    nav {
+      position: relative;
+      background-color: #16687a;
+      
+    }
+  
+    #kush {
+      top: 0;
+      font-size: 30px;
+      margin: 10px;
+      text-align: center;
+    }
+  
+    li {
+      
+      /* padding: 10px; */
+      font-size: 18px;
+      text-align: center;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        margin: 0px 10px;
+        overflow: scroll;
+        width: 100vw;
+    }
+  
+    .box {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 80px;
+      height: auto;
+    }
+  
+    .profil3 img {
+      width: 150px;
+      height: 150px;
+      position: relative;
+      margin-top: 30px;
+    }
+  
+    #name {
+      font-size: 25px;
+      margin: 5px;
+
+    }
+  
+    #hello {
+      font-size: 60px;
+      margin: 5px;
+    }
+  
+    #spam1 {
+      font-size: 15px;
+      margin:5px;
+
+    }
+  
+    #para {
+      font-size: 40px;
+    }
+    .extani{
+        color:white;
+        font-family: tahoma;
+        font-size: 2rem;
+        font-weight: 100;
+        line-height: 1.5;
+        text-transform: uppercase;
+        white-space: nowrap;
+        overflow: hidden;
+        position: relative;
+        
+        
+        /* width: 100vw; */
+        
+      }
+      .word1, .word2, .word3 {
+        font-family: tahoma;
+        margin-top: 0px;
+        }
+      .extani span {
+        margin-left: 0px;
+        padding-left: 0px;
+        overflow: scroll;
+      }
+      .buttons{
+        margin: 40px;
+      }
+      .but{
+        width: 100px;
+        height: 40px;
+      }
+    .aboutbox {
+       display: block ;
+      /* flex-direction: row; */
+      padding: 0px 70px;
+      background-color: white;
+      /* height: auto; */
+      overflow: scroll;
+    }
+    #paraimg{
+        position:relative;
+        left: 25%;
+        right: 25%;
+    }
+  
+    .aboutbox p {
+      font-size: 25px;
+      display: block;
+      width: fit-content;
+    
+      padding: 10px;
+    }
+  .about-para{
+    width: 100vw;
+  }
+    form {
+      margin: 30px;
+    }
+  
+    .card {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      width: auto;
+    }
+  
+    .box1 {
+      width: 90%;
+      margin: 10px;
+    }
+    .message {
+        
+        background-color: white;
+        color:black;
+        font-size: 18px;
+        width: 190px;
+        z-index: 1;
+        display: block;
+        font-weight: 300;
+        position: absolute;
+        padding-left: 1.5rem;
+        top: 0.9rem;
+        left: 200px;
+        animation-delay: 2s;
+        animation: openclose 5s ease-in-out infinite;
+    }
+  
+    /* Adjust the animation keyframes for mobile devices */
+    @keyframes openclose {
+            98% {
+             top: -16rem;
+              width: 0;
+              text-indent: 10px;
+            }
+            100% {
+              top: 0;
+              width: 0;
+              text-indent: 0;
+      }
+    }
+  }
+  

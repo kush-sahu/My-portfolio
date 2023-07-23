@@ -1,5 +1,6 @@
 body{
    background-image: url(img3.jpg);
+   
 }
 *{
     margin: 0px;
@@ -196,7 +197,9 @@ margin: 30px;
         }
     }
       
-
+#paraimg{
+    height: 250px ; width: 200px; border-radius: 50%; padding-top:20px;
+}
 
 
 
