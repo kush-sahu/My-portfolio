@@ -43,9 +43,10 @@ li:hover{
 #kush{
     color:white;
     display: inline;
-    position: absolute;
-    top: 15px;
-    left: 100px;
+    position: sticky;
+    
+    top: 0px;
+    left: 70px;
     font-size: 37px;
 }
 header{
@@ -143,7 +144,7 @@ margin: 30px;
     padding: 0px 70px;
     background-color: white;
    height: 60vh;
-    
+    overflow: scroll;
 }
 
 .extani{
@@ -296,3 +297,6 @@ form input{
     footer p{
         padding: 25px;
     }
+
+
+
