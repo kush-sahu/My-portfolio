@@ -1,7 +1,7 @@
 /* mediaquery.css */
 
 /* Mobile styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     body {
       background-size: cover;
     }
@@ -105,7 +105,8 @@
       padding: 0px 70px;
       background-color: white;
       /* height: auto; */
-      overflow: scroll;
+      
+      overflow-y: scroll;
     }
     #paraimg{
         position:relative;
@@ -117,14 +118,24 @@
       font-size: 25px;
       display: block;
       width: fit-content;
-    
+      
       padding: 10px;
     }
   .about-para{
+    width: 120vw;
+    margin: 0px;
+  }
+  .about-para p{
     width: 100vw;
+    margin: 0px;
   }
     form {
       margin: 30px;
+
+    }
+    #paraname{
+        font-weight: 500;
+       
     }
   
     .card {
