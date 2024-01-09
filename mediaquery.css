@@ -72,7 +72,7 @@
   }
 
   #para {
-    font-size: 40px;
+    font-size: 30px;
   }
   .extani {
     color: white;
@@ -125,7 +125,7 @@
   }
 
   .aboutbox p {
-    font-size: 25px;
+    font-size: 20px;
     display: block;
     /* width: fit-content; */
 
@@ -134,7 +134,7 @@
   .about-para {
     /* width: 100vw; */
     margin: 0px;
-    text-align:justify;
+    text-align:start;
     /* overflow: auto; */
   }
   .about-para p {
