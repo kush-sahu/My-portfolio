@@ -8,6 +8,7 @@
   }
   .buttons{
     color: white;
+    
   }
   nav {
     position: relative;
@@ -16,11 +17,14 @@
     /* z-index: 2; */
     width: 100vw;
   }
+  main{
+    height: 100vh;
+  }
 
   #kush {
     /* top: 0; */
     position: absolute;
-    font-size: 30px;
+   left: 25%;
     margin: 10px;
     text-align: center;
   }
@@ -40,26 +44,35 @@
   }
 
   .box {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
-    padding-top: 80px;
+    
     height: auto;
+  }
+  .profil3{
+    overflow: visible;
+    padding: 20px;
   }
 
   .profil3 img {
-    width: 150px;
-    height: 150px;
+    width: 80%;
+    height: 90%;
     position: relative;
-    margin-top: 30px;
+    left: 0%;
+    border-radius: 5%;
+    margin: auto;
   }
-
+  .contaner1 {
+    padding-left: 8vw;
+    height: 50vh;
+  }
   #name {
-    font-size: 25px;
+    font-size: 29px;
     margin: 5px;
   }
 
   #hello {
-    font-size: 60px;
+    font-size: 73px;
     margin: 5px;
   }
   header{
@@ -67,7 +80,7 @@
   }
 
   #spam1 {
-    font-size: 15px;
+    font-size: 18px;
     margin: 5px;
   }
 
@@ -99,16 +112,18 @@
     overflow: scroll;
   }
   .buttons {
-    margin: 40px;
+    /* margin: 10px; */
+    margin-left: 13vw;
   }
   .but {
-    width: 100px;
-    height: 40px;
+    width: 59%;
     color: white;
+    margin: 6%;
+    
   }
   
    .aboutbox p {
-    font-size: 13px;
+    font-size: 19px;
    
     /* width: fit-content; */
 
@@ -122,7 +137,7 @@
   }  
    .about-para p {
    
-    margin: 0px;
+    margin: 19px;
   }  
   
    .aboutbox {
@@ -221,5 +236,19 @@
   .textp2{
     font-size: 13px;
     padding: 1px;
+  }
+
+  #navflex {
+    position: relative;
+    height: 67px;
+  }
+  #logo{
+    margin: inherit;
+    width: fit-content;
+    height: 94%;
+  }
+  #kush{
+    height: 100%;
+    
   }
 }
