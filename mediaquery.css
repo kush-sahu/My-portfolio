@@ -205,4 +205,21 @@
       text-indent: 0;
     }
   }
+
+
+  .projectcard{
+    
+  width: 83vw;
+  height: 60vh;
+  border: rgb(255, 255, 255) 1px solid;
+  margin: 50px;
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: #084451;
+ 
+  }
+  .textp2{
+    font-size: 13px;
+    padding: 1px;
+  }
 }

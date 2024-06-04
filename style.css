@@ -17,6 +17,12 @@ li {
   padding: 10px 17px;
   font-size: 25px;
 }
+#navflex{
+  display: flex;
+  position: absolute;
+  gap: 50px;
+  height: 100%;
+}
 ul {
   float: right;
   padding: 16px;
@@ -28,8 +34,9 @@ nav {
   z-index: 2;
 }
 #logo {
-  height: 50px;
+  height: 90%;
   width: 40px;
+  margin: auto;
   border: solid white 2px;
   border-radius: 40px;
   
@@ -46,7 +53,7 @@ li:hover {
   color: white;
   display: inline;
   position: sticky;
-
+  margin: auto;
   top: 0px;
   left: 70px;
   font-size: 37px;
@@ -69,14 +76,17 @@ header {
 .contaner1 {
   width: 100vw;
 }
-.profil3 {
+.profil3  {
   align-items: center;
   display: flex;
+  overflow: hidden;
+  
 }
-.profil3 img {
-  width: 33vw;
-  height: 58vh;
+.profil3  img {
+  width: 26vw;
+    height: 58vh;
   position: absolute;
+  left: 63%;
   border-radius: 50%;
   border: solid #69cdf1 2px;
   box-shadow: 0 0 20px 20px #69cdf1;
@@ -107,22 +117,25 @@ header {
   margin-top: 5px;
 }
 .but {
-  color: white;
-  background: rgb(5, 57, 25);
-  background: radial-gradient(
+  border: #16687a;
+  font-size: 17px;
+  color: rgb(239, 239, 239);
+  background: rgb(38, 109, 125);
+  /* background: radial-gradient(
     circle,
     rgba(5, 57, 25, 1) 0%,
     rgba(38, 149, 119, 1) 0%,
     rgba(236, 174, 201, 1) 1%,
-    rgba(28, 221, 210, 1) 2%
-  );
+    rgb(2, 174, 165) 2%
+  ); */
   width: 220px;
   height: 56px;
   border-radius: 5px;
-  margin: 30px;
+  margin: 40px;
 }
 .but:hover {
-  border: solid aqua 20px;
+  /* border: solid #16687a  26px; */
+  cursor: pointer;
 }
 .About {
   text-align: center;
@@ -131,8 +144,10 @@ header {
   padding-bottom: 25px;
   text-decoration: underline;
   color: white;
+  width: 100vw;
 }
 .aboutbox p {
+  
   font-size: 30px;
   padding-left: 30px;
   /* padding: 20px 50px; */
@@ -142,6 +157,7 @@ header {
   font-family: "Roboto Slab", serif;
 }
 .aboutbox {
+  
   display: flex;
   flex-direction: row;
   padding: 0px 70px;
@@ -235,7 +251,7 @@ form input {
 }
 .card {
   width: 100vw;
-  height: 200px;
+  height: 50vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -244,8 +260,10 @@ form input {
   overflow: hidden;
 }
 .box1 {
-  /* height: 150px; */
-  width: 110px;
+  /* height: 150px;
+  width: 110px; */
+  height: 37vh;
+    width: 19vw;
   background-color: white;
   align-self: center;
   border-radius: 10px;
@@ -258,7 +276,7 @@ form input {
 
 #insta {
   width: 95%;
-  height: 40%;
+  height: 66%;
   border-radius: 10px 10px 0px 0px;
   font-size: medium;
 }
@@ -282,6 +300,7 @@ form input {
   background-color: black;
   text-align: center;
   color: white;
+  width: 100vw;
 }
 footer p {
   padding: 25px;
@@ -290,4 +309,94 @@ footer p {
 #updatepara>p{
   display: block;
   
+}
+.project{
+  width: 100vw;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  
+}
+.projectcard{
+  width: 23vw;
+  height: 60vh;
+  border: rgb(255, 255, 255) 1px solid;
+  margin: 50px;
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: #084451;
+ 
+  
+}
+.pimg{
+  width: 100%;
+  height: 55%;
+  overflow: hidden;
+  background-color: black;
+}
+#coco{
+  width: 100%;
+  height: 100%;
+  padding: auto;
+}
+#netflix{
+  width: 82%;
+  margin: 11%;
+  margin-top: 11%;
+  height: 63%;
+  background-color: black;
+}
+
+.textp{
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  text-align: center;
+}
+#h3p{
+  color: rgb(255, 235, 17);
+}
+#h4p{
+  color: rgb(231, 10, 10);
+}
+#h5p{
+  color: rgb(13, 252, 232);
+}
+.textp2{
+  height: 30%;
+  width: 100%;
+    overflow:auto;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+.pmedia{
+  height: 7.6%;
+  width: 19%;
+  cursor: pointer;
+  
+}
+.flex{
+  color: #fdfdfd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  
+}
+.flex1{
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  background-color: #0c2d36;
 }
