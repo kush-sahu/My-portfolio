@@ -46,12 +46,19 @@
   .box {
     flex-direction: column-reverse;
     align-items: center;
-    
+    overflow: hidden;
     height: auto;
   }
   .profil3{
-    overflow: visible;
+    /* overflow: visible; */
     padding: 20px;
+  }
+  .profil3 h2{
+   
+width: 72%;
+left: 14%;
+top: 63%;
+font-size: 25px;
   }
 
   .profil3 img {
@@ -59,7 +66,8 @@
     height: 90%;
     position: relative;
     left: 0%;
-    border-radius: 5%;
+    background-color: #0c2d36;;
+    /* border-radius: 5%; */
     margin: auto;
   }
   .contaner1 {

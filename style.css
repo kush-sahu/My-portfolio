@@ -79,17 +79,31 @@ header {
 .profil3  {
   align-items: center;
   display: flex;
-  overflow: hidden;
-  
+  /* width: 26vw;
+  height: 60vh;
+  position: absolute;
+  left: 63%; */
+}
+.profil3 h2{
+  position: absolute;
+    left: 63%;
+    top: 78%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    width: 26.2%;
+    background-color: #084451;
+    box-shadow: 0 0 20px 10px #528597;
 }
 .profil3  img {
   width: 26vw;
-    height: 58vh;
+  height: 58vh;
   position: absolute;
+  background-color: #0c2d36;
   left: 63%;
-  border-radius: 50%;
-  border: solid #69cdf1 2px;
-  box-shadow: 0 0 20px 20px #69cdf1;
+  /* border-radius: 50%; */
+  /* border: solid #6ad1f6 2px; */
+  box-shadow: 0 0 20px 20px #528597;
 }
 
 #name {
