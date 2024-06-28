@@ -57,13 +57,13 @@
    
 width: 72%;
 left: 14%;
-top: 63%;
+top: 75%;
 font-size: 25px;
   }
 
   .profil3 img {
     width: 80%;
-    height: 90%;
+    height: 62%;
     position: relative;
     left: 0%;
     background-color: #0c2d36;;
@@ -72,7 +72,7 @@ font-size: 25px;
   }
   .contaner1 {
     padding-left: 8vw;
-    height: 50vh;
+    /* height: 50vh; */
   }
   #name {
     font-size: 29px;
@@ -261,3 +261,5 @@ font-size: 25px;
     
   }
 }
+
+
