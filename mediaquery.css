@@ -1,0 +1,263 @@
+/* mediaquery.css */
+
+/* Mobile styles */
+@media screen and (max-width: 900px) {
+  body {
+    /* background-size: cover; */
+    
+  }
+  .buttons{
+    color: white;
+    
+  }
+  nav {
+    position: relative;
+    background-color: #16687a;
+    /* position: fixed; */
+    /* z-index: 2; */
+    width: 100vw;
+  }
+  main{
+    height: 100vh;
+  }
+
+  #kush {
+    /* top: 0; */
+    position: absolute;
+   left: 25%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  li {
+    /* padding: 10px; */
+    font-size: 18px;
+    text-align: center;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px 10px;
+    overflow: scroll;
+    width: 100vw;
+  }
+
+  .box {
+    flex-direction: column-reverse;
+    align-items: center;
+    overflow: hidden;
+    height: auto;
+  }
+  .profil3{
+    /* overflow: visible; */
+    padding: 20px;
+  }
+  .profil3 h2{
+   
+width: 72%;
+left: 14%;
+top: 63%;
+font-size: 25px;
+  }
+
+  .profil3 img {
+    width: 80%;
+    height: 90%;
+    position: relative;
+    left: 0%;
+    background-color: #0c2d36;;
+    /* border-radius: 5%; */
+    margin: auto;
+  }
+  .contaner1 {
+    padding-left: 8vw;
+    height: 50vh;
+  }
+  #name {
+    font-size: 29px;
+    margin: 5px;
+  }
+
+  #hello {
+    font-size: 73px;
+    margin: 5px;
+  }
+  header{
+    width: 100vw;
+  }
+
+  #spam1 {
+    font-size: 18px;
+    margin: 5px;
+  }
+
+  #para {
+    font-size: 30px;
+  }
+  .extani {
+    color: white;
+    font-family: tahoma;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+
+    /* width: 100vw; */
+  }
+  .word1,
+  .word2,
+  .word3 {
+    font-family: tahoma;
+    margin-top: 0px;
+    font-weight: 800;
+  }
+  .extani span {
+    margin-left: 0px;
+    padding-left: 0px;
+    overflow: scroll;
+  }
+  .buttons {
+    /* margin: 10px; */
+    margin-left: 13vw;
+  }
+  .but {
+    width: 59%;
+    color: white;
+    margin: 6%;
+    
+  }
+  
+   .aboutbox p {
+    font-size: 19px;
+   
+    /* width: fit-content; */
+
+   padding: 10px;
+  }  
+    .about-para {
+    /* width: 100vw; */
+    margin: -30%;
+    text-align:justify;
+    /* overflow: auto; */
+  }  
+   .about-para p {
+   
+    margin: 19px;
+  }  
+  
+   .aboutbox {
+    display: flex;
+   
+    flex-direction: column;
+     padding: 0px 70px; 
+    background-color: white;
+    height: 60vh;
+    overflow: auto;
+  } 
+  
+  
+  #paraimg {
+    position: static;
+    padding: 20% 11%;
+   
+    width: 66%;
+    margin-bottom: 17%;
+    margin-top: -9%;
+   
+  } 
+
+  
+
+ 
+
+
+  form {
+    margin: 30px;
+    height: 60%;
+  }
+  #paraname {
+    font-weight: 500;
+  }
+
+  .card {
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+  }
+
+  .box1 {
+    width: 50%;
+    margin: 10px;
+    height: 50%;
+  }
+  .footer1 {
+    height: 500px;
+  }
+  .message {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    width: 190px;
+    z-index: 1;
+    display: block;
+    font-weight: 300;
+    position: absolute;
+    padding-left: 1.5rem;
+    top: 0.9rem;
+    left: 200px;
+    animation-delay: 2s;
+    animation: openclose 5s ease-in-out infinite;
+  }
+
+  /* Adjust the animation keyframes for mobile devices */
+  @keyframes openclose {
+    98% {
+      top: -16rem;
+      width: 0;
+      text-indent: 10px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }
+
+
+  .projectcard{
+    
+  width: 83vw;
+  height: 60vh;
+  border: rgb(255, 255, 255) 1px solid;
+  margin: 50px;
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: #084451;
+ 
+  }
+  .textp2{
+    font-size: 13px;
+    padding: 1px;
+  }
+
+  #navflex {
+    position: relative;
+    height: 67px;
+  }
+  #logo{
+    margin: inherit;
+    width: fit-content;
+    height: 94%;
+  }
+  #kush{
+    height: 100%;
+    
+  }
+}

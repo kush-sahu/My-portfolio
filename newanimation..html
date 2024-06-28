@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: start;
+    justify-content:start;
+    height: 100vh;
+    width: 100vw;
+  }
+  h1{
+    color: #333;
+    font-family: tahoma;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+  }
+  
+  h1 span {
+    font-size: 30px;
+    margin-left: 0px;
+    padding-left: 20px;
+    overflow: auto;
+
+  }
+  
+  .message {
+    background-color: yellow;
+    color: #333;
+    width: 700px;
+    display: block;
+    font-weight: 900;
+    overflow: none;
+    position: absolute;
+    padding-left: 0.5rem;
+    top: 0.2rem;
+    left: 710px;
+    animation: openclose 5s ease-in-out infinite;
+  }
+  
+  .word1, .word2, .word3 {
+    font-family: tahoma;
+   
+    
+   
+  }
+  
+  @keyframes openclose {
+
+98% {
+  top: -9rem;
+  width: 0;
+  text-indent: 10px;
+}
+100% {
+  top: 0;
+  width: 0;
+  text-indent: 0;
+}
+
+
+  }</style>
+</head>
+<body>
+  <h1>
+    <span> Coding the Future: A Journey in</span>
+    <div class="message">
+      <div class="word1">Computer Science Engineer
+      
+      </div>
+      <div class="word2">  Web developement
+        </div>
+      <div class="word3">Algorithem Analyses</div>
+    </div>
+  </h1>
+  
+</body>
+</html>
