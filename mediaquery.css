@@ -20,6 +20,10 @@
   main{
     height: 100vh;
   }
+  .sign{
+    margin-top: 24px;
+    margin-left: -80px;
+  }
 
   #kush {
     /* top: 0; */
@@ -50,15 +54,16 @@
     height: auto;
   }
   .profil3{
-    /* overflow: visible; */
+    flex-direction: column-reverse;
     padding: 20px;
   }
   .profil3 h2{
    
-width: 72%;
-left: 14%;
-top: 75%;
-font-size: 25px;
+    width: 79%;
+    left: 7%;
+    /* top: 75%; */
+    position: sticky;
+    font-size: 25px;
   }
 
   .profil3 img {
@@ -78,7 +83,7 @@ font-size: 25px;
     font-size: 29px;
     margin: 5px;
   }
-
+  
   #hello {
     font-size: 73px;
     margin: 5px;
@@ -237,7 +242,7 @@ font-size: 25px;
   height: 60vh;
   border: rgb(255, 255, 255) 1px solid;
   margin: 50px;
-  border-radius: 5%;
+  
   overflow: hidden;
   background-color: #084451;
  
@@ -259,6 +264,12 @@ font-size: 25px;
   #kush{
     height: 100%;
     
+  }
+  .exp {
+    flex-direction: column-reverse;
+  }
+  #blues{
+    margin-left: 22%;
   }
 }
 

@@ -54,10 +54,12 @@ li:hover {
   display: inline;
   position: sticky;
   margin: auto;
+  margin-left: 120px;
   top: 0px;
-  left: 70px;
+  left: 100px;
   font-size: 37px;
 }
+
 header {
   width: 100vw;
 }
@@ -162,13 +164,13 @@ header {
 }
 .aboutbox p {
   
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 30px;
-  /* padding: 20px 50px; */
-  padding:  30px;
+  padding:  20px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
+  text-align: justify;
 }
 .aboutbox {
   
@@ -234,10 +236,13 @@ header {
 
 #paraimg {
   /* height: 250px; */
-
+  position: absolute;
   width: 200px;
   border-radius: 5px;
   padding-top: 100px;
+}
+.about-para{
+  margin-left: 20%;
 }
 
 .footer1 {
@@ -341,7 +346,7 @@ footer p {
   height: 60vh;
   border: rgb(255, 255, 255) 1px solid;
   margin: 50px;
-  border-radius: 5%;
+  /* border-radius: 5%; */
   overflow: hidden;
   background-color: #084451;
  
@@ -416,4 +421,375 @@ footer p {
   width: 80%;
   height: 100%;
   background-color: #0c2d36;
+}
+
+
+
+
+
+
+
+
+  
+  /* body {
+    background-color: #141114;
+    background-image: linear-gradient(335deg, black 23px, transparent 23px),
+      linear-gradient(155deg, rgb(0, 0, 0) 23px, transparent 23px),
+      linear-gradient(335deg, black 23px, transparent 23px),
+      linear-gradient(155deg, black 23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+  } */
+  
+  .sign {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-image: radial-gradient(
+      ellipse 50% 35% at 50% 50%,
+      /* #052c6e, */
+      transparent
+    );
+    transform: translate(-50%, -50%);
+    letter-spacing: 2;
+    /* left: 50%; */
+    /* top: 50%; */
+    font-family: "Clip";
+    text-transform: uppercase;
+    /* font-size: 6em; */
+    color: #0c2860;
+    text-shadow: 0 0 0.6rem #ffffff, 0 0 1.5rem #064369,
+      -0.2rem 0.1rem 1rem #072586, 0.2rem 0.1rem 1rem #0c065e,
+      0 -0.5rem 2rem #091b74, 0 0.5rem 3rem #041c84;
+    animation: shine 2s forwards, flicker 3s infinite;
+  }
+  
+  @keyframes blink {
+    0%,
+    22%,
+    36%,
+    75% {
+      color: #ffffff;
+      text-shadow: 0 0 0.6rem #16687a, 0 0 1.5rem #16687a,
+        -0.2rem 0.1rem 1rem #16687a, 0.2rem 0.1rem 1rem #16687a,
+        0 -0.5rem 2rem #16687a, 0 0.5rem 3rem#16687a;
+    }
+    28%,
+    33% {
+      color: #16687a;
+      text-shadow: none;
+    }
+    82%,
+    97% {
+      color:#16687a;
+      text-shadow: none;
+    }
+  }
+  
+  .flicker {
+    animation: shine 2s forwards, blink 3s 2s infinite;
+  }
+  
+  .fast-flicker {
+    animation: shine 2s forwards, blink 10s 1s infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      color:#16687a;
+      text-shadow: none;
+    }
+    100% {
+      color: #ffffff;
+      text-shadow: 0 0 0.6rem #16687a, 0 0 1.5rem #16687a,
+        -0.2rem 0.1rem 1rem #16687a, 0.2rem 0.1rem 1rem #16687a,
+        0 -0.5rem 2rem #16687a, 0 0.5rem 3rem #16687a;
+    }
+  }
+  
+  @keyframes flicker {
+    from {
+      opacity: 1;
+    }
+  
+    4% {
+      opacity: 0.9;
+    }
+  
+    6% {
+      opacity: 0.85;
+    }
+  
+    8% {
+      opacity: 0.95;
+    }
+  
+    10% {
+      opacity: 0.9;
+    }
+  
+    11% {
+      opacity: 0.922;
+    }
+  
+    12% {
+      opacity: 0.9;
+    }
+  
+    14% {
+      opacity: 0.95;
+    }
+  
+    16% {
+      opacity: 0.98;
+    }
+  
+    17% {
+      opacity: 0.9;
+    }
+  
+    19% {
+      opacity: 0.93;
+    }
+  
+    20% {
+      opacity: 0.99;
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    26% {
+      opacity: 0.94;
+    }
+  
+    28% {
+      opacity: 0.98;
+    }
+  
+    37% {
+      opacity: 0.93;
+    }
+  
+    38% {
+      opacity: 0.5;
+    }
+  
+    39% {
+      opacity: 0.96;
+    }
+  
+    42% {
+      opacity: 1;
+    }
+  
+    44% {
+      opacity: 0.97;
+    }
+  
+    46% {
+      opacity: 0.94;
+    }
+  
+    56% {
+      opacity: 0.9;
+    }
+  
+    58% {
+      opacity: 0.9;
+    }
+  
+    60% {
+      opacity: 0.99;
+    }
+  
+    68% {
+      opacity: 1;
+    }
+  
+    70% {
+      opacity: 0.9;
+    }
+  
+    72% {
+      opacity: 0.95;
+    }
+  
+    93% {
+      opacity: 0.93;
+    }
+  
+    95% {
+      opacity: 0.95;
+    }
+  
+    97% {
+      opacity: 0.93;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* second file */
+  .hamburger ,
+.cross {
+  display: none;
+  cursor: pointer;
+  
+}
+.hamburger img,
+.cross img{
+   filter: invert();
+      width: 42px;
+    
+}
+
+
+.boxham {
+  display: none;
+  position: absolute;
+  width: 80vw;
+  height: 100vh;
+  z-index: 40;
+}
+.home1,.contact1,.about,.exprience,.project1{
+    display: none;
+}
+
+@media (max-width: 900px) {
+  .expdes{
+    width:74vw;
+  }
+  .hamburger,
+  .cross {
+    display: block;
+    margin-left: 80vw;
+    margin-top: 2vh;
+  }
+  .home {
+    color: aliceblue;
+  }
+
+  .boxham {
+    background-color: #16687a;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 82vw;
+  }
+
+  /* Keyframes for the reverse animation */
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideOut {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  /* Class to apply the slide-in animation */
+  .boxham.show {
+    animation: slideIn 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+  }
+
+  /* Class to apply the slide-out animation */
+  .boxham.hide {
+    animation: slideOut 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+  }
+
+  .home1,.contact1,.about,.exprience,.project1{
+    color: white;
+    margin: 10%;
+    padding: 5%;
+    font-weight: 100;
+    
+  }
+  .home1,.contact1,.about,.exprience,.project1{
+    display: block;
+        border: 1px solid;
+        border-radius: 4px;
+}
+}
+
+
+.expriencess{
+ width: 100vw;
+  background-color: white;
+}
+.exp{
+ 
+  margin: auto;
+  width: 90vw;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+gap: 10px;
+}
+.expdes{
+  /* background-color: rgb(236, 243, 250); */
+  
+  box-shadow: 0 0 14px -7px #85b9cd;
+  text-align: justify;
+  color: #404040;
+  font-weight: 200;
+  padding: 2%;
+  font-family: math;;
+}
+.expdes p{
+  margin:  20px; 
+}
+#blues{
+  align-items: center;
+          width: 53%;
+
+}
+.ofletter{
+  display: flex;
+
+}
+
+.blue-img2{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
 }

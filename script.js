@@ -1,0 +1,89 @@
+document.querySelector(".cross").style.display = "none";
+
+// Function to hide the hamburger icon if the screen size is larger than 900px
+function checkScreenSize() {
+    if (window.innerWidth > 900) {
+        document.querySelector(".hamburger").style.display = "none";
+    } else {
+        document.querySelector(".hamburger").style.display = "block";
+    }
+}
+
+// Call the function initially to set the correct state on page load
+checkScreenSize();
+
+// Add an event listener to check the screen size whenever the window is resized
+window.addEventListener('resize', checkScreenSize);
+
+// Function to handle the hamburger icon click
+document.querySelector(".hamburger").onclick = function() {
+    let box = document.querySelector('.boxham');
+    if (!box.classList.contains('show')) {
+        box.classList.remove('hide');
+        box.classList.add('show');
+        box.style.display = "block";
+        document.querySelector(".hamburger").style.display = "none";
+        document.querySelector(".cross").style.display = "block";
+    }
+    box.innerHTML = '';
+
+    // Create and append the 'home' element
+    let home = document.createElement('h2');
+    let homeLink = document.createElement('a');
+    homeLink.href = '#home'; // Set the URL for home
+    homeLink.innerText = 'HOME';
+    home.classList.add('home1');
+    home.appendChild(homeLink);
+    box.appendChild(home);
+
+    // Create and append the 'about' element
+    let about = document.createElement('h2');
+    let aboutLink = document.createElement('a');
+    aboutLink.href = '#about'; // Set the URL for about
+    aboutLink.innerText = 'ABOUT';
+    about.classList.add('about');
+    about.appendChild(aboutLink);
+    box.appendChild(about);
+
+    // Create and append the 'experience' element
+    let experience = document.createElement('h2');
+    let experienceLink = document.createElement('a');
+    experienceLink.href = '#experience'; // Set the URL for experience
+    experienceLink.innerText = 'EXPERIENCE';
+    experience.classList.add('home1');
+    experience.appendChild(experienceLink);
+    box.appendChild(experience);
+
+    // Create and append the 'project' element
+    let project = document.createElement('h2');
+    let projectLink = document.createElement('a');
+    projectLink.href = '#project'; // Set the URL for project
+    projectLink.innerText = 'PROJECT';
+    project.classList.add('project1');
+    project.appendChild(projectLink);
+    box.appendChild(project);
+
+    // Create and append the 'contact' element
+    let contact = document.createElement('h2');
+    let contactLink = document.createElement('a');
+    contactLink.href = '#contact'; // Set the URL for contact
+    contactLink.innerText = 'CONTACT';
+    contact.classList.add('contact1');
+    contact.appendChild(contactLink);
+    box.appendChild(contact);
+}
+
+// Function to handle the cross icon click
+document.querySelector(".cross").onclick = function() {
+    let box = document.querySelector('.boxham');
+    if (box.classList.contains('show')) {
+        box.classList.remove('show');
+        box.classList.add('hide');
+        setTimeout(() => {
+            box.style.display = "none";
+        }, 1000); // Match the duration of the slide-out animation
+
+        document.querySelector(".cross").style.display = "none";
+        document.querySelector(".hamburger").style.display = "block";
+    }
+}
