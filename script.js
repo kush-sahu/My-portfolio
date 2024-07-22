@@ -17,6 +17,8 @@ window.addEventListener('resize', checkScreenSize);
 
 // Function to handle the hamburger icon click
 document.querySelector(".hamburger").onclick = function() {
+  let cross=  document.querySelector(".cross").style.position='fixed'  ;
+ 
     let box = document.querySelector('.boxham');
     if (!box.classList.contains('show')) {
         box.classList.remove('hide');
@@ -48,7 +50,7 @@ document.querySelector(".hamburger").onclick = function() {
     // Create and append the 'experience' element
     let experience = document.createElement('h2');
     let experienceLink = document.createElement('a');
-    experienceLink.href = '#experience'; // Set the URL for experience
+    experienceLink.href = '#experience'; 
     experienceLink.innerText = 'EXPERIENCE';
     experience.classList.add('home1');
     experience.appendChild(experienceLink);
@@ -71,6 +73,14 @@ document.querySelector(".hamburger").onclick = function() {
     contact.classList.add('contact1');
     contact.appendChild(contactLink);
     box.appendChild(contact);
+
+    let hireme =document.createElement('h2');
+    let hierlink=document.createElement('a');
+    hierlink.href='#hierme';
+    hierlink.innerText='Hired me with';
+    hireme.appendChild(hierlink);
+    hireme.classList.add('contact1');
+    box.appendChild(hireme);
 }
 
 // Function to handle the cross icon click
@@ -79,9 +89,7 @@ document.querySelector(".cross").onclick = function() {
     if (box.classList.contains('show')) {
         box.classList.remove('show');
         box.classList.add('hide');
-        setTimeout(() => {
-            box.style.display = "none";
-        }, 1000); // Match the duration of the slide-out animation
+        
 
         document.querySelector(".cross").style.display = "none";
         document.querySelector(".hamburger").style.display = "block";

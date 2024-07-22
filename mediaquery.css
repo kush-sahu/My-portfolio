@@ -39,12 +39,7 @@
     text-align: center;
   }
   ul {
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-    margin: 0px 10px;
-    overflow: scroll;
-    width: 100vw;
+   display: none;
   }
 
   .box {
@@ -151,9 +146,14 @@
   }  
    .about-para p {
    
-    margin: 19px;
+    margin: 3px;
   }  
+  .pmedia{
+   
+      height: 9.6%;
   
+    
+  }
    .aboutbox {
     display: flex;
    
@@ -255,6 +255,7 @@
   #navflex {
     position: relative;
     height: 67px;
+    justify-content: end;
   }
   #logo{
     margin: inherit;
