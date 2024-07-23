@@ -3,7 +3,7 @@
 /* Mobile styles */
 @media screen and (max-width: 900px) {
   .slidbar{
-    height: 50vh;
+    height: 45vh;
   }
   #hionly{
     padding-top: 11%;
