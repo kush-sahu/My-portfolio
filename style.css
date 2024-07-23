@@ -644,6 +644,7 @@ footer p {
 .slidbar{
   width: 100vw;
   height: 70vh;
+  
 }
 
 .achi-box{
@@ -654,7 +655,7 @@ footer p {
   padding: 20px;
   /* border: 10px solid rgb(255, 255, 255); */
   margin: auto;
-  background-color: white;
+  background-color: rgb(13, 47, 67);
   display: flex;
 
  justify-content: space-evenly;
@@ -668,7 +669,7 @@ footer p {
   padding: 20px;
   /* border: 10px solid rgb(255, 255, 255); */
   margin: auto;
-  background-color: white;
+  background-color: rgb(8, 7, 7);
   display: flex;
   gap: 10%;
  justify-content: space-evenly;
