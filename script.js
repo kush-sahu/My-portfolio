@@ -81,6 +81,23 @@ document.querySelector(".hamburger").onclick = function() {
     hireme.appendChild(hierlink);
     hireme.classList.add('contact1');
     box.appendChild(hireme);
+
+    let certificate =document.createElement('h2');
+    let certilink=document.createElement('a');
+    certilink.href='#certi';
+    certilink.innerText='Certificates';
+    certificate.appendChild(certilink);
+    certificate.classList.add('contact1');
+    box.appendChild(certificate);
+
+    let arch=document.createElement('h2');
+    let arcilink=document.createElement('a');
+    arcilink.href='#archivement';
+    arcilink.innerText='Achivement';
+    arch.appendChild(arcilink);
+    arch.classList.add('contact1');
+    box.appendChild(arch);
+
 }
 
 // Function to handle the cross icon click

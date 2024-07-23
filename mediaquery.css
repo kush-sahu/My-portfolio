@@ -2,6 +2,15 @@
 
 /* Mobile styles */
 @media screen and (max-width: 900px) {
+  .slidbar{
+    height: 50vh;
+  }
+  #hionly{
+    padding-top: 11%;
+  }
+  #hionly2{
+    padding-top: 11%;
+  }
   body {
     /* background-size: cover; */
     
@@ -158,10 +167,11 @@
     display: flex;
    
     flex-direction: column;
-     padding: 0px 70px; 
+     padding: 0px 74px; 
     background-color: white;
     height: 60vh;
     overflow: auto;
+    width: unset;
   } 
   
   
@@ -271,6 +281,12 @@
   }
   #blues{
     margin-left: 22%;
+  }
+  .slid-box1 img{
+    padding-left: 10%;
+  }
+  .slid-box1{
+    gap: 10%;
   }
 }
 
