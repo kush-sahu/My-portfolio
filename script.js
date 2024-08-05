@@ -112,3 +112,4 @@ document.querySelector(".cross").onclick = function() {
         document.querySelector(".hamburger").style.display = "block";
     }
 }
+
