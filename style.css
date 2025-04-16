@@ -336,7 +336,7 @@ footer p {
   margin-bottom: 25px;
   display: flex;
   flex-direction: row;
-  overflow: hidden;
+  overflow-x: hidden;
   flex-wrap: wrap;
   justify-content: space-around;
   

@@ -170,6 +170,7 @@
      padding: 0px 74px; 
     background-color: white;
     height: 60vh;
+    overflow-x: hidden;
     overflow: auto;
     width: unset;
   } 
@@ -252,7 +253,7 @@
   height: 60vh;
   border: rgb(255, 255, 255) 1px solid;
   margin: 50px;
-  
+  overflow-x: hidden;
   overflow: hidden;
   background-color: #084451;
  
